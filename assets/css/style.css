@@ -117,16 +117,17 @@ nav button:hover{
     align-items: center;
 }
 .success-image {
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 170px;
-    margin-right: 250px;
+  
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
 }
-.success-image img{
-    width: 100%;
+.success-image video{
+  border-radius: 20px;
 }
+
 .success-content{
     position: relative;
     display: grid;
