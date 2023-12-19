@@ -12,7 +12,7 @@
 
 .academies .container{
     margin: auto;
-    width: 50%;
+    width: 65%;
 }
 .academies .container:nth-child(3){
     margin-top: -150px;
