@@ -26,12 +26,7 @@ section {
 .contanier{
     margin: 0 2%;
 }
-.contanier span:nth-child(2){
-    width: 2%;
-    height: 0.5vh;
-    display: block;
-    background-color: red;
-}
+
 .content {
     display: flex;
     flex-direction: row;
@@ -44,6 +39,12 @@ section {
     padding: 20px;
     background-color: whitesmoke;
     width: 20%;
+}
+aside a{
+    text-decoration-color: red;
+    text-decoration-thickness: 1.3px;
+    color: black;
+    font-weight: 700;
 }
 
 .content .subject {
@@ -64,11 +65,17 @@ section {
 .partner {
     display: flex;
     padding: 30px;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: flex-start;
+}
+.partnerTitle{
+    margin: 5%;
+}
+.partner .item {
+    width: 25%;
+    margin: auto;
 }
 .partner img{
-    max-width: 50%;
+    width: 100%;
 }
 
 
